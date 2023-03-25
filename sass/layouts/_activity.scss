@@ -1,0 +1,47 @@
+.activity {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+.no-padding {
+  padding-top: 0;
+}
+.cards__title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--primary-title-color);
+}
+.cards__list {
+  display: flex;
+  & .cards__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.cards__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.cards__thumb {
+  position: relative;
+}
+.cards__text {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: var(--activity-bg-color);
+}
